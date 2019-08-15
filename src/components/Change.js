@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import styles from './change.css';
 
 export default class Change extends PureComponent {
   state = {
@@ -13,9 +14,11 @@ export default class Change extends PureComponent {
     
     return (
       <>
-      <div>
-        <button onClick={this.selectColor.bind(null, '#9999FF')}>Purple</button>
-      </div>
+     <section className={styles.Color}>
+       <button className={styles.purple} onClick={this.selectColor('pink')}>Purple</button>
+       <button className={styles.pink} onClick={this.selectColor('blue')}>Pink</button>
+       <button className={styles.blue} onClick={this.selectColor('purple')}>Blue</button>
+     </section>
       </>
     );
   }

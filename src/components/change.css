@@ -1,0 +1,14 @@
+.Color {
+  padding: 2em;
+}
+  .purple {
+    background-color: #9999FF;
+  }
+  
+  .pink {
+    background-color: #CC99FF;
+  }
+  
+  .blue {
+    background-color: #99CCFF;
+  }
