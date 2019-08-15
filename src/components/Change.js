@@ -15,9 +15,10 @@ export default class Change extends PureComponent {
     return (
       <>
      <section className={styles.Color}>
-       <button className={styles.purple} onClick={this.selectColor('pink')}>Purple</button>
-       <button className={styles.pink} onClick={this.selectColor('blue')}>Pink</button>
-       <button className={styles.blue} onClick={this.selectColor('purple')}>Blue</button>
+       <button className={styles.purple} onClick={this.selectColor('purple')}>Purple</button>
+       <button className={styles.pink} onClick={() =>this.selectColor('pink')}>Pink</button>
+       <button className={styles.blue} onClick={this.selectColor('blue')}>Blue</button>
+       <div><button className={styles[color]}>A DIFFERENT COLOR</button></div>
      </section>
       </>
     );
