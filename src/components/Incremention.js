@@ -15,7 +15,7 @@ export default class Incremention extends PureComponent {
     return (
       <>
       <p>Hail Satan: {count}</p>
-      <button onClick={this.count}>yes?</button>
+      <button onClick={this.count}>Yes?</button>
       </>
     );
   }
