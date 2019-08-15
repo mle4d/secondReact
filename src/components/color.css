@@ -1,18 +1,17 @@
 .Color {
-  button {
-    padding: 1em;
-  }
-
-  .pink {
-    background-color: #9999FF;
-  }
-
-  .purple {
-    background-color: #CC99FF;
-  }
-
-  .blue {
-    background-color: #99CCFF;
-    color: white;
-  }
+    padding: 2em;
 }
+    .pink {
+      background-color: #9999FF;
+    }
+    
+    .purple {
+      background-color: #CC99FF;
+    }
+    
+    .blue {
+      background-color: #99CCFF;
+    }
+  
+
+    

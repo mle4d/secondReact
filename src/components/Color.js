@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styles from './color.css';
 
-export default class Color extends Component {
+class Color extends Component {
   static propTypes = {
     colors: PropTypes.arrayOf(PropTypes.string).isRequired 
   }
@@ -30,3 +30,9 @@ export default class Color extends Component {
     );
   }
 }
+
+Color.propTypes = {
+  color: PropTypes.string.isRequired,
+};
+
+export default Color;
